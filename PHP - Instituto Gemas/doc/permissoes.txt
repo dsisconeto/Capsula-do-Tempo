@@ -1,0 +1,6 @@
+1 - criar outros usuarios
+2 - alterar infomações gerais
+3 - evento
+4 - post
+
+gemas*alpha

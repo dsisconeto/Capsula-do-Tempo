@@ -1,0 +1,28 @@
+body {
+
+    background-image: url("/dist_admin/img/login_bg.jpg");
+    background-size: cover;
+
+}
+
+#box_login {
+    width: 400px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.panel {
+    background-image: url('/dist_admin/img/bg_login_form.png');
+    background-repeat: repeat;
+    background-color: transparent;
+
+}
+
+.panel-primary > .panel-heading {
+    color: #2d2d2d;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+}

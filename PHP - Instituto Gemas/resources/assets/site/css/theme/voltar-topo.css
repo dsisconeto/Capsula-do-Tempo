@@ -1,0 +1,27 @@
+.voltar-topo {
+    cursor: pointer;
+
+    background: #fff;
+    color: #314a29;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #89ad4e;
+    z-index: 10000;
+}
+
+@media (min-width: 768px) {
+    .voltar-topo {
+
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 767px ) {
+
+    .voltar-topo {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+}

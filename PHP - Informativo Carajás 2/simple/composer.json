@@ -1,0 +1,26 @@
+{
+  "name": "dsisconeto/simple",
+  "type": "library",
+  "license": "GNU 3.0",
+  "authors": [
+    {
+      "name": "Dejair Sisconeto",
+      "email": "dejairsisconeto23@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": " >=5.6",
+    "smarty/smarty": "3.1.29",
+    "intervention/image": "2.3.13",
+    "grandt/phpresizegif": "^1.0",
+    "respect/validation": "1.1.2",
+    "guzzlehttp/guzzle": "~6.0",
+    "lcobucci/jwt": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DSisconeto\\Simple\\": "src"
+    }
+  }
+}

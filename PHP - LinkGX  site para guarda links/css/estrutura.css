@@ -1,0 +1,666 @@
+/* line 17, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 3, ../sass/_estilizacao.scss */
+a {
+  color: #00aaff;
+  text-decoration: none;
+  outline: none;
+  font-weight: bold; }
+  /* line 10, ../sass/_estilizacao.scss */
+  a:hover {
+    color: #006699; }
+  /* line 14, ../sass/_estilizacao.scss */
+  a:active {
+    color: #33bbff; }
+  /* line 18, ../sass/_estilizacao.scss */
+  a img {
+    border: none;
+    outline: none; }
+
+/* line 24, ../sass/_estilizacao.scss */
+button {
+  width: 130px;
+  height: 30px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #CCC;
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #ffffff, #dddddd);
+  background-image: -moz-linear-gradient(top, #ffffff, #dddddd);
+  background-image: -o-linear-gradient(top, #ffffff, #dddddd);
+  background-image: linear-gradient(top, #ffffff, #dddddd); }
+  /* line 39, ../sass/_estilizacao.scss */
+  button:hover {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(60%, #dddddd));
+    background-image: -webkit-linear-gradient(top, #ffffff, #dddddd 60%);
+    background-image: -moz-linear-gradient(top, #ffffff, #dddddd 60%);
+    background-image: -o-linear-gradient(top, #ffffff, #dddddd 60%);
+    background-image: linear-gradient(top, #ffffff, #dddddd 60%); }
+  /* line 43, ../sass/_estilizacao.scss */
+  button:active {
+    background: #DDD; }
+
+/* line 48, ../sass/_estilizacao.scss */
+input {
+  -webkit-transition: all 0.7s linear;
+  -moz-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: initial;
+  -moz-transition-delay: initial;
+  -o-transition-delay: initial;
+  transition-delay: initial;
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  background: #FFF;
+  color: #555;
+  outline: none;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-size: 13px;
+  background-position: 7px center;
+  background-repeat: no-repeat; }
+  /* line 64, ../sass/_estilizacao.scss */
+  input:hover, input:focus {
+    box-shadow: 0 0 3px #1ab2ff; }
+  /* line 68, ../sass/_estilizacao.scss */
+  input[type=text], input[estilo=login], input[estilo=email], input[estilo=senha], input[estilo=link], input[estilo=site] {
+    padding-left: 25px !important; }
+  /* line 72, ../sass/_estilizacao.scss */
+  input[type=text] {
+    background-image: url(../img/icons/edit.png); }
+  /* line 74, ../sass/_estilizacao.scss */
+  input[estilo=login] {
+    background-image: url(../img/icons/contacts.png); }
+  /* line 76, ../sass/_estilizacao.scss */
+  input[estilo=email] {
+    background-image: url(../img/icons/messageoutline.png); }
+  /* line 78, ../sass/_estilizacao.scss */
+  input[estilo=senha] {
+    background-image: url(../img/icons/key.png); }
+  /* line 80, ../sass/_estilizacao.scss */
+  input[estilo=link], input[estilo=site] {
+    background-image: url(../img/icons/link.png); }
+  /* line 82, ../sass/_estilizacao.scss */
+  input[type=checkbox] {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    box-shadow: none; }
+
+/* line 90, ../sass/_estilizacao.scss */
+textarea {
+  -webkit-transition: all 0.7s linear;
+  -moz-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: initial;
+  -moz-transition-delay: initial;
+  -o-transition-delay: initial;
+  transition-delay: initial;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  background: #FFF;
+  color: #555;
+  outline: none;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-size: 13px;
+  background-position: 7px center;
+  background-repeat: no-repeat; }
+  /* line 106, ../sass/_estilizacao.scss */
+  textarea:hover, textarea:focus {
+    box-shadow: 0 0 3px #1ab2ff; }
+  /* line 110, ../sass/_estilizacao.scss */
+  textarea[estilo=edit] {
+    padding-left: 26px;
+    background-image: url(../img/icons/edit.png); }
+
+/* line 5, ../sass/estrutura.scss */
+* {
+  font-family: Tahoma;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, ../sass/estrutura.scss */
+html, body {
+  height: 100%;
+  margin: 0; }
+  /* line 10, ../sass/_mixins.scss */
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #DDD; }
+  /* line 16, ../sass/_mixins.scss */
+  html::-webkit-scrollbar-thumb:vertical, body::-webkit-scrollbar-thumb:vertical {
+    height: 10px;
+    background-color: #006699; }
+  /* line 21, ../sass/_mixins.scss */
+  html::-webkit-scrollbar-thumb:horizontal, body::-webkit-scrollbar-thumb:horizontal {
+    width: 10px;
+    background-color: #006699; }
+
+/* line 16, ../sass/estrutura.scss */
+header {
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  border-top: 4px solid #00aaff;
+  border-bottom: 1px solid #CCC;
+  background: #EEE; }
+  /* line 26, ../sass/estrutura.scss */
+  header #header {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto; }
+    /* line 31, ../sass/estrutura.scss */
+    header #header #header-logo {
+      width: 170px;
+      height: 100%;
+      line-height: 54px;
+      float: left;
+      text-align: center;
+      font-size: 27px;
+      border-right: 1px dotted #DDD;
+      color: #009ceb;
+      font-weight: 600; }
+    /* line 43, ../sass/estrutura.scss */
+    header #header #header-busca {
+      float: right;
+      width: 350px;
+      height: 100%;
+      position: relative;
+      margin-right: 20px; }
+      /* line 50, ../sass/estrutura.scss */
+      header #header #header-busca #header-busca-caixa {
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        border: 1px solid #DDD;
+        background: #FFF;
+        margin: auto; }
+        /* line 60, ../sass/estrutura.scss */
+        header #header #header-busca #header-busca-caixa input, header #header #header-busca #header-busca-caixa button {
+          float: left;
+          height: 100%; }
+        /* line 65, ../sass/estrutura.scss */
+        header #header #header-busca #header-busca-caixa input {
+          width: 64%;
+          font-size: 13px;
+          color: #555;
+          border: 0;
+          padding: 10px;
+          box-shadow: none !important; }
+        /* line 74, ../sass/estrutura.scss */
+        header #header #header-busca #header-busca-caixa button {
+          width: 20%;
+          -webkit-box-shadow: inset 0 0 40px #dddddd;
+          -moz-box-shadow: inset 0 0 40px #dddddd;
+          box-shadow: inset 0 0 40px #dddddd;
+          border: solid #DDD;
+          cursor: pointer;
+          color: #999;
+          background: #DDD;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+          border-radius: 0;
+          border-width: 0 1px;
+          margin: 0; }
+        /* line 86, ../sass/estrutura.scss */
+        header #header #header-busca #header-busca-caixa div {
+          height: 100%;
+          float: left;
+          background-repeat: no-repeat;
+          background-position: center;
+          cursor: pointer; }
+          /* line 93, ../sass/estrutura.scss */
+          header #header #header-busca #header-busca-caixa div:nth-child(3) {
+            width: 10%;
+            background-size: 15px; }
+          /* line 98, ../sass/estrutura.scss */
+          header #header #header-busca #header-busca-caixa div:nth-child(4) {
+            float: left;
+            width: 6%;
+            background-image: url(http://localhost/linkgx/img/seta.png);
+            background-size: 7px; }
+          /* line 105, ../sass/estrutura.scss */
+          header #header #header-busca #header-busca-caixa div:nth-child(5) {
+            display: none;
+            position: absolute;
+            width: 84%;
+            top: 0;
+            left: 0;
+            background: #FFF;
+            border-right: 1px solid #DDD;
+            padding: 5px 0; }
+          /* line 115, ../sass/estrutura.scss */
+          header #header #header-busca #header-busca-caixa div:nth-child(5) {
+            width: 295px; }
+            /* line 118, ../sass/estrutura.scss */
+            header #header #header-busca #header-busca-caixa div:nth-child(5) span {
+              display: block;
+              float: left;
+              width: 30px;
+              height: 18px;
+              border-right: 1px solid #DDD;
+              background-image: url(http://localhost/linkgx/img/google.png);
+              background-size: 15px;
+              background-repeat: no-repeat;
+              background-position: center; }
+              /* line 129, ../sass/estrutura.scss */
+              header #header #header-busca #header-busca-caixa div:nth-child(5) span:last-child {
+                border: 0; }
+              /* line 133, ../sass/estrutura.scss */
+              header #header #header-busca #header-busca-caixa div:nth-child(5) span:hover {
+                background-color: #eeeeee; }
+
+/* line 144, ../sass/estrutura.scss */
+#home {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid #CCC; }
+  /* line 150, ../sass/estrutura.scss */
+  #home #home-conteudo {
+    position: absolute;
+    top: 60px; }
+    /* line 154, ../sass/estrutura.scss */
+    #home #home-conteudo .home-painel {
+      width: 33%;
+      min-height: 400px;
+      float: left;
+      border-right: 1px solid #DDD;
+      padding: 15px; }
+      /* line 28, ../sass/_mixins.scss */
+      #home #home-conteudo .home-painel:after {
+        content: ".";
+        height: 0;
+        clear: both;
+        display: block;
+        visibility: hidden;
+        overflow: hidden; }
+      /* line 162, ../sass/estrutura.scss */
+      #home #home-conteudo .home-painel:nth-child(3) {
+        border: 0; }
+      /* line 166, ../sass/estrutura.scss */
+      #home #home-conteudo .home-painel h3 {
+        color: #555;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 0; }
+      /* line 173, ../sass/estrutura.scss */
+      #home #home-conteudo .home-painel input[type=text], #home #home-conteudo .home-painel input[type=email], #home #home-conteudo .home-painel input[type=password] {
+        display: block;
+        width: 100%;
+        height: 30px;
+        border: 1px solid #CCC;
+        padding-left: 6px;
+        font-size: 13px;
+        color: #333; }
+      /* line 183, ../sass/estrutura.scss */
+      #home #home-conteudo .home-painel label[for=conectado] {
+        padding-bottom: 40px; }
+        /* line 28, ../sass/_mixins.scss */
+        #home #home-conteudo .home-painel label[for=conectado]:after {
+          content: ".";
+          height: 0;
+          clear: both;
+          display: block;
+          visibility: hidden;
+          overflow: hidden; }
+        /* line 42, ../sass/_mixins.scss */
+        #home #home-conteudo .home-painel label[for=conectado] input {
+          float: left;
+          width: 10%;
+          margin-top: 10px; }
+        /* line 48, ../sass/_mixins.scss */
+        #home #home-conteudo .home-painel label[for=conectado] span {
+          float: left;
+          display: block;
+          width: 90%;
+          padding-top: 9px; }
+    /* line 188, ../sass/estrutura.scss */
+    #home #home-conteudo #home-apresentacao {
+      padding-top: 50px; }
+      /* line 191, ../sass/estrutura.scss */
+      #home #home-conteudo #home-apresentacao span {
+        display: block; }
+        /* line 194, ../sass/estrutura.scss */
+        #home #home-conteudo #home-apresentacao span:first-child {
+          font-weight: bold;
+          font-size: 20px;
+          color: #555; }
+        /* line 200, ../sass/estrutura.scss */
+        #home #home-conteudo #home-apresentacao span:last-child {
+          padding: 10px 5px;
+          font-size: 13px;
+          color: #555; }
+        /* line 206, ../sass/estrutura.scss */
+        #home #home-conteudo #home-apresentacao span:last-child:before {
+          content: ' ';
+          padding-left: 10px; }
+    /* line 213, ../sass/estrutura.scss */
+    #home #home-conteudo #home-login, #home #home-conteudo #home-cadastro {
+      color: #555; }
+      /* line 216, ../sass/estrutura.scss */
+      #home #home-conteudo #home-login div, #home #home-conteudo #home-cadastro div {
+        margin: 0 auto; }
+      /* line 220, ../sass/estrutura.scss */
+      #home #home-conteudo #home-login button, #home #home-conteudo #home-cadastro button {
+        width: 140px;
+        height: 30px;
+        display: block;
+        margin: 20px auto; }
+      /* line 227, ../sass/estrutura.scss */
+      #home #home-conteudo #home-login label, #home #home-conteudo #home-login a, #home #home-conteudo #home-cadastro label, #home #home-conteudo #home-cadastro a {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px; }
+      /* line 234, ../sass/estrutura.scss */
+      #home #home-conteudo #home-login .home-login_cadastro-msg, #home #home-conteudo #home-cadastro .home-login_cadastro-msg {
+        min-height: 30px;
+        padding: 10px 5px;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 12px;
+        color: #4dc3ff;
+        border: 1px dotted #4dc3ff;
+        background: #e5f6ff; }
+    /* line 246, ../sass/estrutura.scss */
+    #home #home-conteudo #home-face {
+      width: 940px;
+      height: 280px;
+      border-bottom: 1px solid #555;
+      margin: 10px 10px 10px 0;
+      overflow: hidden; }
+
+/* line 256, ../sass/estrutura.scss */
+#template {
+  width: 940px;
+  margin: 75px auto; }
+  /* line 28, ../sass/_mixins.scss */
+  #template:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden; }
+  /* line 261, ../sass/estrutura.scss */
+  #template #template-cadastro {
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative; }
+    /* line 267, ../sass/estrutura.scss */
+    #template #template-cadastro #template-cadastro-imagem {
+      display: none;
+      position: absolute;
+      left: -250px;
+      top: 10%;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #CCC;
+      box-shadow: 0 20px 15px -15px #888888, inset 0 0 100px rgba(0, 0, 0, 0);
+      background-color: #EEE;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    /* line 282, ../sass/estrutura.scss */
+    #template #template-cadastro .template-cadastro-input {
+      display: block;
+      position: relative;
+      margin-bottom: 5px; }
+      /* line 287, ../sass/estrutura.scss */
+      #template #template-cadastro .template-cadastro-input .template-cadastro-msg {
+        display: none;
+        position: absolute;
+        left: 330px;
+        top: 27px;
+        width: 150px;
+        height: 25px;
+        border: 1px solid #BBB;
+        background: #FFF;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px; }
+        /* line 298, ../sass/estrutura.scss */
+        #template #template-cadastro .template-cadastro-input .template-cadastro-msg span:nth-child(1) {
+          padding: 0 5px;
+          line-height: 25px;
+          color: #888;
+          font-size: 12px;
+          text-align: center; }
+        /* line 306, ../sass/estrutura.scss */
+        #template #template-cadastro .template-cadastro-input .template-cadastro-msg span:nth-child(2) {
+          position: absolute;
+          left: 0;
+          top: 5px;
+          left: -9.7px;
+          z-index: 1;
+          width: 11px;
+          height: 11px;
+          background-image: url(../img/perninha.png);
+          background-repeat: no-repeat; }
+    /* line 320, ../sass/estrutura.scss */
+    #template #template-cadastro label {
+      display: block;
+      text-transform: capitalize;
+      font-size: 12px;
+      padding: 7px 0;
+      color: #888; }
+    /* line 328, ../sass/estrutura.scss */
+    #template #template-cadastro input {
+      display: block;
+      width: 100%;
+      height: 30px;
+      display: block;
+      padding: 0 7px;
+      border: 1px solid #CCC;
+      font-size: 14px;
+      color: #555; }
+      /* line 338, ../sass/estrutura.scss */
+      #template #template-cadastro input[type=file] {
+        height: 40px;
+        padding-top: 7px; }
+    /* line 344, ../sass/estrutura.scss */
+    #template #template-cadastro button {
+      width: 50%;
+      margin: 20px auto;
+      display: block; }
+  /* line 351, ../sass/estrutura.scss */
+  #template #template-novoSite {
+    width: 100%;
+    padding: 10px 0; }
+    /* line 28, ../sass/_mixins.scss */
+    #template #template-novoSite:after {
+      content: ".";
+      height: 0;
+      clear: both;
+      display: block;
+      visibility: hidden;
+      overflow: hidden; }
+    /* line 356, ../sass/estrutura.scss */
+    #template #template-novoSite .template-novoSite {
+      width: 500px;
+      height: 180px;
+      margin: 10px auto;
+      border: 1px solid #DDD;
+      font-size: 13px; }
+      /* line 28, ../sass/_mixins.scss */
+      #template #template-novoSite .template-novoSite:after {
+        content: ".";
+        height: 0;
+        clear: both;
+        display: block;
+        visibility: hidden;
+        overflow: hidden; }
+      /* line 365, ../sass/estrutura.scss */
+      #template #template-novoSite .template-novoSite a {
+        display: block;
+        width: 100%;
+        text-align: right;
+        padding-right: 20px; }
+      /* line 373, ../sass/estrutura.scss */
+      #template #template-novoSite .template-novoSite .template-novoSite-img {
+        width: 30%;
+        height: 100%;
+        float: left;
+        position: relative;
+        border-right: 1px solid #DDD;
+        background-position: center;
+        background-repeat: no-repeat; }
+      /* line 384, ../sass/estrutura.scss */
+      #template #template-novoSite .template-novoSite .template-novoSite-center {
+        width: 70%;
+        height: 100%;
+        float: left; }
+        /* line 389, ../sass/estrutura.scss */
+        #template #template-novoSite .template-novoSite .template-novoSite-center input, #template #template-novoSite .template-novoSite .template-novoSite-center textarea {
+          width: 95%;
+          display: block;
+          margin: 10px auto; }
+        /* line 395, ../sass/estrutura.scss */
+        #template #template-novoSite .template-novoSite .template-novoSite-center textarea {
+          height: 50px;
+          resize: none; }
+          /* line 10, ../sass/_mixins.scss */
+          #template #template-novoSite .template-novoSite .template-novoSite-center textarea::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background: #DDD; }
+          /* line 16, ../sass/_mixins.scss */
+          #template #template-novoSite .template-novoSite .template-novoSite-center textarea::-webkit-scrollbar-thumb:vertical {
+            height: 10px;
+            background-color: #006699; }
+          /* line 21, ../sass/_mixins.scss */
+          #template #template-novoSite .template-novoSite .template-novoSite-center textarea::-webkit-scrollbar-thumb:horizontal {
+            width: 10px;
+            background-color: #006699; }
+
+/* line 406, ../sass/estrutura.scss */
+footer {
+  width: 940px;
+  height: 100px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #333; }
+  /* line 415, ../sass/estrutura.scss */
+  footer a {
+    position: relative;
+    padding: 0 3px;
+    margin-top: 10px; }
+    /* line 420, ../sass/estrutura.scss */
+    footer a:after {
+      content: " . ";
+      position: absolute;
+      top: -3px;
+      right: -5px;
+      color: #555; }
+    /* line 428, ../sass/estrutura.scss */
+    footer a:last-child:after {
+      content: ""; }

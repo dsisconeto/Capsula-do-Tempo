@@ -1,0 +1,21 @@
+.btn {
+    min-height: 40px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    font-family: gotham-black;
+    color: #fff;
+    background: #89ad4e;
+    text-transform: uppercase;
+    border: 0;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(49, 74, 41, 1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(49, 74, 41, 1);
+    box-shadow: 1px 1px 5px 0px rgba(49, 74, 41, 1);
+
+}
+
+.btn-primary:hover {
+    background: #314a29;
+}

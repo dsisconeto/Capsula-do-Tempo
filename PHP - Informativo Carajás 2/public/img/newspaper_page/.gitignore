@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+lg/*
+!lg/.gitignore
+md/*
+!md/.gitignore
+sm/*
+!sm/.gitignore
+xs/*
+!xs/.gitignore
+xxs/*
+!xxs/.gitignore

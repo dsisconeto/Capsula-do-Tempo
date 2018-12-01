@@ -1,0 +1,5 @@
+$(function () {
+
+    CKEDITOR.replace('sobre', {});
+
+});

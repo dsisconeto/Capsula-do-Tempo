@@ -1,0 +1,22 @@
+{
+    "name": "dsisconeto/recurrence",
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DSisconeto\\Recurrence\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dejair Sisconeto",
+            "email": "dejairsisconeto23@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+
+.form-control {
+    color: #89ad4e;
+    padding-left: 0;
+    min-height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #314a29;
+    border-radius: 0;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+
+.form-control:focus {
+    border-color: #314a29;
+}

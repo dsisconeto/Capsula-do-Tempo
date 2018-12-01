@@ -1,0 +1,3 @@
+Mude a linha de conexao no arquivo de src/db/Conexao, 
+Aponte para o diretorio do banco de dados embutido que está src/db
+As libs do derby DB estão na pastas lib

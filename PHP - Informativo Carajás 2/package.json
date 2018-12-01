@@ -1,0 +1,19 @@
+{
+  "name": "informativo",
+  "version": "1.0.0",
+  "description": "informativo carajas",
+  "main": "index.js",
+  "dependencies": {
+    "sortablejs": "^1.6.0",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

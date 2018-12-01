@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Jun 07 00:43:08 BRT 2017:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instância a816c00e-015c-80a6-1ae4-000004ff0060
+no diretório de banco de dados /home/dsisconeto/DevStudy/maquina/Maquina/db 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11
+user.dir=/home/dsisconeto/DevStudy/maquina/Maquina
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-78-generic
+derby.system.home=null
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''

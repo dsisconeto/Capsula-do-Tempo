@@ -1,0 +1,69 @@
+<?php
+
+public function __construct()
+{
+    $this->setTable("");
+    $this->setPrimaryKey("");
+    $this->setImgFolder("");
+
+}
+
+public function register()
+{
+    $sql = $this->sqlInsert();
+
+
+    return $sql->execute();
+}
+
+public function edit()
+{
+    $sql = $this->sqlUpdate();
+    $criteria = $this->criteria();
+    $criteria->add($this->filter($this->getPrimaryKey(), '=', $this->getId()));
+
+    $sql->setCriteria($criteria);
+    return $sql->execute();
+}
+public function delete()
+{
+    $sql = $this->sqlDelete();
+    $criteria = $this->criteria();
+
+    $criteria->add($this->filter("{$this->getPrimaryKey()}", '=', "{$this->getId()}"));
+
+    $sql->setCriteria($criteria);
+
+    return $sql->execute();
+}
+
+
+public function select($criteria = NULL, $col = NULL)
+{
+    $sql = $this->sqlSelect();
+
+    $col ? $sql->addColumn($col) : $sql->addColumn("*");
+    $criteria ? $sql->setCriteria($criteria) : NULL;
+
+
+    return $sql->execute();
+}
+
+public function load($id)
+{
+    $this->setId($id);
+
+    $res = $this->selectPrimaryKey();
+
+    if ($res) {
+        $res = $res[0];
+        // carregar dados
+
+    }
+
+    return $res;
+}
+
+
+$this->department = $this->department ? $this->department : new Department();
+

@@ -1,0 +1,432 @@
+@import "main";
+
+/////////////////////
+
+* {
+	font-family: $base-font;
+	@include box-sizing(border-box);
+}
+
+html, body {
+	@include scroll;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	z-index: 4;
+	left: 0; top: 0;
+	width: 100%;
+	height: 60px;
+	border-top: 4px solid $base-color;
+	border-bottom: 1px solid #CCC;
+	background: #EEE;
+	
+	#header {
+		width: 940px;
+		height: 100%;
+		margin: 0 auto;
+	
+		#header-logo {
+			width: 170px;
+			height: 100%;
+			line-height: 54px;
+			float: left;
+			text-align: center;
+			font-size: 27px;
+			border-right: 1px dotted #DDD;
+			color: darken($base-color, 4%);
+			font-weight: 600;
+		}
+		
+		#header-busca {
+			float: right;
+			width: 350px;
+			height: 100%;
+			position: relative;
+			margin-right: 20px;
+		
+			#header-busca-caixa {
+				width: 100%;
+				height: 30px;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				border: 1px solid #DDD;
+				background: #FFF;
+				margin: auto;
+				
+				input, button {
+					float: left;
+					height: 100%;
+				}
+
+				input {
+					width: 64%;
+					font-size: 13px;
+					color: #555;
+					border: 0;
+					padding: 10px;
+					box-shadow: none !important;
+				}
+			
+				button {
+					width: 20%;
+					@include box-shadow(inset 0 0 40px #DDD);
+					border: solid #DDD;
+					cursor: pointer;
+					color: #999;
+					background: #DDD;
+					@include border-radius(0);
+					border-width: 0 1px;
+					margin: 0
+				}
+
+				div {
+					height: 100%;
+					float: left;
+					background-repeat: no-repeat;
+					background-position: center;
+					cursor: pointer;
+
+					&:nth-child(3) {
+						width: 10%;
+						background-size: 15px;
+					}
+					
+					&:nth-child(4) {
+						float: left;
+						width: 6%;
+						background-image: url(#{$base-img}seta.png);
+						background-size: 7px;
+					}
+					
+					&:nth-child(5) {
+						display: none;
+						position: absolute;
+						width: 84%;
+						top: 0; left: 0;
+						background: #FFF;
+						border-right: 1px solid #DDD;
+						padding: 5px 0
+					}
+					
+					&:nth-child(5) {
+						width: 295px;
+
+						span {
+							display: block;
+							float: left;
+							width: 30px;
+							height: 18px;
+							border-right: 1px solid #DDD;
+							background-image: url(#{$base-img}google.png);
+							background-size: 15px;
+							background-repeat: no-repeat;
+							background-position: center;
+					
+							&:last-child {
+								border: 0
+							}
+							
+							&:hover {
+								background-color: #EEE
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#home {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+
+	#home-conteudo {
+		position: absolute;
+		top: 60px;
+
+		.home-painel {
+			width: 33%;
+			min-height: 400px;
+			float: left;
+			border-right: 1px solid #DDD;
+			padding: 15px;
+			@include clear;
+
+			&:nth-child(3) {
+				border: 0;
+			}
+
+			h3 {
+				color: #555;
+				font-size: 20px;
+				font-weight: bold;
+				padding: 5px 0;
+			}
+
+			input[type=text], input[type=email], input[type=password] {
+				display: block;
+				width: 100%;
+				height: 30px;
+				border: 1px solid #CCC;
+				padding-left: 6px;
+				font-size: 13px;
+				color: #333;
+			}
+
+			label[for=conectado] {
+				@include label;
+			}
+		}
+
+		#home-apresentacao {
+			padding-top: 50px;
+		
+			span {
+				display: block;
+
+				&:first-child {
+					font-weight: bold;
+					font-size: 20px;
+					color: #555;
+				}
+
+				&:last-child {
+					padding: 10px 5px;
+					font-size: 13px;
+					color: #555;
+				}
+
+				&:last-child:before {
+					content: ' ';
+					padding-left: 10px;
+				}
+			}
+		}
+
+		#home-login, #home-cadastro {
+			color: #555;
+
+			div {
+				margin: 0 auto;
+			}
+
+			button {
+				width: 140px;
+				height: 30px;
+				display: block;
+				margin: 20px auto;
+			}
+
+			label, a {
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				font-size: 13px;
+			}
+
+			.home-login_cadastro-msg {
+				min-height: 30px;
+				padding: 10px 5px;
+				margin: 10px 0;
+				text-align: center;
+				font-size: 12px;
+				color: lighten($base-color, 15%);
+				border: 1px dotted lighten($base-color, 15%);
+				background: lighten($base-color, 45%);
+			}
+		}
+
+		#home-face {
+			width: 940px;
+			height: 280px;
+			border-bottom: 1px solid #555;
+			margin: 10px 10px 10px 0;
+			overflow: hidden;
+		}
+	}
+}
+
+#template {
+	width: 940px;
+	margin: 75px auto;
+	@include clear;
+	
+	#template-cadastro {
+		width: 320px;
+		margin: 0 auto;
+		padding-top: 20px;
+		position: relative;
+
+		#template-cadastro-imagem {
+			display: none;
+			position: absolute;
+			left: -250px;
+			top: 10%;
+			width: 200px;
+			height: 200px;
+			border: 1px solid #CCC;
+			box-shadow: 0 20px 15px -15px #888, inset 0 0 100px rgba(0,0,0, .7);
+			background-color: #EEE;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.template-cadastro-input {
+			display: block;
+			position: relative;
+			margin-bottom: 5px;
+
+			.template-cadastro-msg {
+				display: none;
+				position: absolute;
+				left: 330px;
+				top: 27px;
+				width: 150px;
+				height: 25px;
+				border: 1px solid #BBB;
+				background: #FFF;
+				@include border-radius(4px);
+				
+				span:nth-child(1) {
+					padding: 0 5px;
+					line-height: 25px;
+					color: #888;
+					font-size: 12px;
+					text-align: center;
+				}
+
+				span:nth-child(2) {
+					position: absolute;
+					left: 0;
+					top: 5px;
+					left: -9.7px;
+					z-index: 1;
+					width: 11px;
+					height: 11px;
+					background-image: url(../img/perninha.png);
+					background-repeat: no-repeat;
+				}
+			}
+		}
+		
+		label {
+			display: block;
+			text-transform: capitalize;
+			font-size: 12px;
+			padding: 7px 0;
+			color: #888;
+		}
+
+		input {
+			display: block;
+			width: 100%;
+			height: 30px;
+			display: block;
+			padding: 0 7px;
+			border: 1px solid #CCC;
+			font-size: 14px;
+			color: #555;
+
+			&[type=file] {
+				height: 40px;
+				padding-top: 7px;
+			}
+		}
+
+		button {
+			width: 50%;
+			margin: 20px auto;
+			display: block;
+		}
+	}
+
+	#template-novoSite {
+		@include clear;
+		width: 100%;
+		padding: 10px 0;
+
+		.template-novoSite {
+			@include clear;
+
+			width: 500px;
+			height: 180px;
+			margin: 10px auto;
+			border: 1px solid #DDD;
+			font-size: 13px;
+
+			a {
+				display: block;
+				width: 100%;
+				text-align: right;
+				padding-right: 20px;
+
+			}
+
+			.template-novoSite-img {
+				width: 30%;
+				height: 100%;
+				float: left;
+				position: relative;
+
+				border-right: 1px solid #DDD;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.template-novoSite-center {
+				width: 70%;
+				height: 100%;
+				float: left;
+
+				input, textarea {
+					width: 95%;
+					display: block;
+					margin: 10px auto;
+				}
+
+				textarea {
+					@include scroll();
+					height: 50px;
+					resize: none;
+				}
+			}
+		}
+
+	}
+}
+
+footer {
+	width: 940px;
+	height: 100px;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 13px;
+	color: #333;
+
+	a {
+		position: relative;
+		padding: 0 3px;
+		margin-top: 10px;
+
+		&:after {
+			content: " . ";
+			position: absolute;
+			top: -3px;
+			right: -5px;
+			color: #555;
+		}
+
+		&:last-child:after {
+			content: "";
+		}
+	}
+}

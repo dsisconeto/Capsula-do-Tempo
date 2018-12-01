@@ -1,0 +1,54 @@
+
+@mixin animate($x: '.5s') {
+	@include transition(all #{$x} linear);
+	@include transition-duration(#{$x});
+	@include transition-timing-function(linear);
+	@include transition-delay(initial);
+}
+
+@mixin scroll($w: 10px, $h: 10px, $color: darken($base-color,20%)) {
+	&::-webkit-scrollbar {
+		width: $w;
+		height: $h;
+		background: #DDD;
+	}
+
+	&::-webkit-scrollbar-thumb:vertical {
+		height: $h;
+		background-color: $color;
+	}
+
+	&::-webkit-scrollbar-thumb:horizontal {
+		width: $h;
+		background-color: $color;
+	}
+}
+
+@mixin clear {
+	&:after {
+		content:".";
+		height:0;
+		clear:both;
+		display:block;
+		visibility:hidden;
+		overflow:hidden
+	}
+}
+
+@mixin label {
+	@include clear;
+	padding-bottom: 40px;
+
+	input {
+		float: left;
+		width: 10%;
+		margin-top: 10px;
+	}
+
+	span {
+		float: left;
+		display: block;
+		width: 90%;
+		padding-top: 9px;
+	}
+}

@@ -1,0 +1,97 @@
+.card {
+  border: none;
+  border-radius: 0;
+  height: 100%;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+.card .card-img-cover {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  max-height: 220px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.card .card-img-cover:after {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+.card .card-img-cover img {
+  width: auto;
+  height: 100%;
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.card .card-footer {
+  padding: 20px;
+  background: none;
+  border: none;
+}
+
+/* Card de Como funciona */
+.home-how-it-works .card {
+  padding: 50px;
+  box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.25);
+}
+.home-how-it-works .card .card-title {
+  width: 20%;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #E43A2C;
+}
+
+/* Card de Ofertas */
+.card.card-oferts {
+  max-height: 420px;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+}
+.card.card-oferts .card-body {
+  line-height: 1.5rem;
+  padding-bottom: 0;
+  background-color: #E6E6E6;
+}
+.card.card-oferts .card-img-cover .favorite-item {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+.card.card-oferts .card-body .favorite-item img {
+  z-index: 5;
+}
+.card.card-oferts .card-title {
+  color: #383838;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  max-height: 65px;
+  white-space: pre;
+  word-break: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card.card-oferts:hover {
+  transform: scale(1.05);
+}
+.card.card-oferts .price-tag {
+  text-decoration: none!important;
+  color: #383838;
+}
+.card.card-oferts .price-tag .old-price {
+  font-size: 16px;
+  text-decoration: line-through;
+}
+.card.card-oferts .price-tag .new-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #E43A2C;
+}

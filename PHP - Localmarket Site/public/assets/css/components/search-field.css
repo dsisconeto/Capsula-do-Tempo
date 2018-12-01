@@ -1,0 +1,21 @@
+.term-list {
+  list-style: none inside;
+  width: 30%;
+  margin: 0 auto 2em;
+  padding: 5px 10px 0;
+  text-align: left;
+  color: #777;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-weight: 400;
+  opacity: 0;
+}
+.term-list li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #eee;
+}
+.term-list strong {
+  color: #444;
+  font-weight: 700;
+}

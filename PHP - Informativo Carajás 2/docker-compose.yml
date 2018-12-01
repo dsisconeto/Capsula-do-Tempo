@@ -1,0 +1,44 @@
+####
+# ATENCAO:
+# Troque todas as ocorrencias de "sandbox" com o nome do seu projeto
+####
+
+# sintaxe v2 do docker-compose
+version: '2'
+
+# Volumes (para que os dados nao se percam)
+volumes:
+
+  # Dados do MySQL
+  # remova se voce nao for usar mysql
+  informati-mysql-data:
+    driver: local
+
+services:
+  # MySQL (5.7)
+  mysql:
+    image: ambientum/mysql:5.7
+    container_name: informativo-mysql
+    volumes:
+      - informativo-mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=5121!Qwert
+      - MYSQL_DATABASE=informativo
+      - MYSQL_USER=dsisconeto
+      - MYSQL_PASSWORD=5121!Qwert
+
+
+  # PHP (com Caddy)
+  # voce pode mudar de caddy para nginx ou apache, basta trocar a sessao 'image'
+  app:
+    image: ambientum/php:7.0-apache
+    container_name: informativo-app
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "80:8080"
+    links:
+      - mysql
+

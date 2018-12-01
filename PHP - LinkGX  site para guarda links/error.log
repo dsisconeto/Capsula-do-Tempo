@@ -1,0 +1,134 @@
+[Sat Jun 29 12:02:52 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php on line 4
+[Sat Jun 29 12:02:52 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 29 12:02:52 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:0
+[Sat Jun 29 12:02:52 2013] [error] [client 127.0.0.1] PHP   2. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:4
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php on line 4
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:0
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP   2. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:4
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php on line 4
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:0
+[Sat Jun 29 12:03:00 2013] [error] [client 127.0.0.1] PHP   2. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\dejair\\home.php:4
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: conectado in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\home.php on line 38, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\home.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 203, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\home.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   2. log->login() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\home.php:42, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   3. usuario->selecionarPorEmail() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\log.php:22, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:24 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244, referer: http://linkgx/index.php
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/index.php
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:0, referer: http://linkgx/index.php
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:6, referer: http://linkgx/index.php
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:31:25 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:29 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:0, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:6, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:30 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14, referer: http://linkgx/home.php?logout
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:0, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\sitesBox.php:6, referer: http://linkgx/index.php
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  A session had already been started - ignoring session_start() in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php on line 4
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. include() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:11
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   3. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:14
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   4. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   5. fInclude() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\conexao.php:4
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   6. include_once() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\load.php:10
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   7. session_start() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\config\\functions.php:4
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: nomeUsuarios in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 238
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined property: usuario::$getSenha in C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\class\\usuario.php on line 244
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:0
+[Sun Jun 30 15:33:38 2013] [error] [client 127.0.0.1] PHP   2. usuario->selecionarPorId() C:\\Users\\Tadeu\\Dropbox\\Dropbox\\tadeu\\index.php:14

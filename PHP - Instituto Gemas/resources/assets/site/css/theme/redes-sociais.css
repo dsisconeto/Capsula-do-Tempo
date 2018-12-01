@@ -1,0 +1,14 @@
+
+.redes-sociais {
+    margin: 20px 0;
+}
+
+.rede-social {
+    font-size: 40px;
+    margin-right: 20px;
+
+}
+
+.rede-social:hover {
+    text-decoration: none;
+}

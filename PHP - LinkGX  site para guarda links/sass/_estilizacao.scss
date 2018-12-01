@@ -1,0 +1,115 @@
+@import "compass/reset";
+
+a {
+	@include animate();
+
+	color: $base-color;
+	text-decoration: none;
+	outline: none;
+	font-weight: bold;
+
+	&:hover {
+		color: darken($base-color, 20%);
+	}
+
+	&:active {
+		color: lighten($base-color, 10%);
+	}
+
+	img {
+		border: none;
+		outline: none;
+	}
+}
+
+button {
+	width: 130px;
+	height: 30px;
+	display: block;
+	margin: 20px auto;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	font-weight: 700;
+	color: #777;
+
+	@include border-radius(5px);
+	@include background-image(linear-gradient(top, #FFF, #DDD));
+
+	&:hover {
+		@include background-image(linear-gradient(top, #FFF, #DDD 60%));
+	}
+
+	&:active {
+		background: #DDD;
+	}
+}
+
+input {
+	@include animate(.7s);
+
+	width: 200px;
+	height: 30px;
+	padding: 0 10px;
+	background: #FFF;
+	color: #555;
+
+	outline: none;
+	border: 1px solid #DDD;
+	@include border-radius(5px);
+	background-size: 13px;
+	background-position: 7px center;
+	background-repeat: no-repeat;
+	
+	&:hover, &:focus {
+		box-shadow: 0 0 3px lighten($base-color, 5%);
+	}
+
+	&[type=text], &[estilo=login], &[estilo=email], &[estilo=senha], &[estilo=link], &[estilo=site], {
+		padding-left: 25px !important;
+	}
+
+	&[type=text] {	background-image: url(../img/icons/edit.png); }
+
+	&[estilo=login] {	background-image: url(../img/icons/contacts.png); }
+
+	&[estilo=email] {	background-image: url(../img/icons/messageoutline.png); }
+
+	&[estilo=senha] {	background-image: url(../img/icons/key.png); }
+
+	&[estilo=link], &[estilo=site] { background-image: url(../img/icons/link.png); }
+
+	&[type=checkbox] {
+		width: 20px;
+		padding: 0;
+		margin: 0;
+		box-shadow: none;
+	}
+}
+
+textarea {
+	@include animate(.7s);
+
+	width: 200px;
+	height: 80px;
+	padding: 10px;
+	background: #FFF;
+	color: #555;
+
+	outline: none;
+	border: 1px solid #DDD;
+	@include border-radius(5px);
+	background-size: 13px;
+	background-position: 7px center;
+	background-repeat: no-repeat;
+	
+	&:hover, &:focus {
+		box-shadow: 0 0 3px lighten($base-color, 5%);
+	}
+
+	&[estilo=edit] {
+		padding-left: 26px;
+		background-image: url(../img/icons/edit.png);
+	}
+}

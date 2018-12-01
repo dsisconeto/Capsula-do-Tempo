@@ -1,0 +1,7 @@
+.idea
+!public/vendor/
+/vendor/
+/templates_c/*
+.vagrant
+node_modules
+config.php
