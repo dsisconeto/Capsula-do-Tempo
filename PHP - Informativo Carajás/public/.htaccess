@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options -Indexes
+
+DirectoryIndex boot.php?boot=controller&router_1=index
+
+RewriteRule ^form/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=index&router_2=$1  [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1  [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1&router_2=$2  [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1&router_2=$2&router_3=$3 [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1&router_2=$2&router_3=$3&router_4=$4  [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1&router_2=$2&router_3=$3&router_4=$4&router_5=$5  [NC,L,QSA]
+RewriteRule ^form/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=form&router_1=$1&router_2=$2&router_3=$3&router_4=$4&router_5=$5&router_6=$6 [NC,L,QSA]
+
+
+RewriteRule ^services/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=index&router_2=$1  [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1 [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1&router_2=$2  [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1&router_2=$2&router_3=$3 [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1&router_2=$2&router_3=$3&router_4=$4  [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1&router_2=$2&router_3=$3&router_4=$4&router_5=$5  [NC,L,QSA]
+RewriteRule ^services/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=services&router_1=$1&router_2=$2&router_3=$3&router_4=$4&router_5=$5&router_6=$6 [NC,L,QSA]
+
+
+RewriteRule ^([a-z0-9-]+)/?$  boot.php?boot=controller&router_1=index&router_2=$1  [NC,L,QSA]
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=controller&router_1=$1&router_2=$2 [NC,L,QSA]
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=controller&router_1=$1&router_2=$2&router_3=$3  [NC,L,QSA]
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=controller&router_1=$1&router_2=$2&router_3=$3&router_4=$4  [NC,L,QSA]
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$  boot.php?boot=controller&router_1=$1&router_2=$2&router_3=$3&router_4=$4&router_5=$5  [NC,L,QSA]
+
+
+</IfModule>
+

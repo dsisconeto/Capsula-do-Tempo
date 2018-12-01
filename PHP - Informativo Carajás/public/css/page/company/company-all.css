@@ -1,0 +1,141 @@
+
+.company-box {
+    width: 100%;
+    height: 300px;
+    display: block;
+    background: #fff;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0 0 10px 10px;
+
+}
+
+.company-box-2 {
+    display: table;
+
+}
+
+.company-box:hover {
+    border: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.company-box-img {
+    width: 100%;
+    max-height: 170px;
+    overflow: hidden;
+
+}
+
+.company-box img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.company-box .company-box-text {
+    padding: 0 10px;
+    text-align: center;
+
+}
+
+.company-box-2 .company-box-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.company-box .company-box-text p {
+    font-size: 13px;
+    color: #65655d;
+
+}
+
+.company-box-title {
+    color: #2d2d2d;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+
+.company-box:focus {
+    text-decoration: none
+}
+
+.company-box:hover {
+    text-decoration: none
+}
+
+.company-box {
+    text-decoration: none
+}
+
+.box-result {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background: #ccc;
+    color: #2d2d2d;
+    text-align: center;
+    padding: 18px 0 0 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.segment-icon {
+    float: left;
+    width: 14.28571428571429%;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.segment-icon-bar {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+@media (max-width: 400px) {
+
+    .segment-icon {
+        margin: 0 0 20px 0;
+        height: 120px;
+        width: 50%;
+        display: block;
+        font-size: 13px;
+    }
+
+    .segment-icon img {
+        width: 50px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 990px) {
+
+    .segment-icon {
+        margin: 0 0 20px 0;
+        width: 25%;
+        height: 120px;
+        display: block;
+    }
+}
+
+.segment-icon p {
+    line-height: 1;
+
+}
+
+.segment-icon img {
+    margin-bottom: 10px;
+    width: 80px;
+}

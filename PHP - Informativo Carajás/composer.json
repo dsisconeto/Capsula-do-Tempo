@@ -1,0 +1,11 @@
+{
+  "require": {
+    "php": " >=5.4",
+    "smarty/smarty": "3.1.29",
+    "respect/validation": "1.1.2",
+    "guzzlehttp/guzzle": "~6.0",
+    "intervention/image": "2.3.13",
+    "grandt/phpresizegif": "^1.0"
+
+  }
+}

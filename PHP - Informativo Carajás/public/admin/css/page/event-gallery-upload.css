@@ -1,0 +1,27 @@
+#list_gallery {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    height: auto;
+    position: static;
+
+}
+
+#list_gallery li {
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    cursor: move;
+    width: 247px;
+    height: 200px;
+    display: list-item;
+
+}
+
+#list_gallery li img {
+    max-width: 247px;
+
+}

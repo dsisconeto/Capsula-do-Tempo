@@ -1,0 +1,23 @@
+body {
+    background-image: url("/img/wood_pattern/wood_pattern.png")
+}
+.newspaper, .newspaper:hover, .newspaper:focus {
+
+    text-align: center;
+    color: #2d2d2d;
+    text-decoration: none;
+
+}
+
+.newspaper {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.60);
+
+}
+
+.newspaper_footer {
+    margin-top: 10px;
+    top: -20px;
+    position: absolute;
+}

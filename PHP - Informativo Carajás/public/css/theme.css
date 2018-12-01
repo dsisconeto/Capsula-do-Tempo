@@ -1,0 +1,225 @@
+/* start Bootstrap =============================================================================*/
+
+body {
+    background: #f8f8f8;
+    font-family: "Open Sans";
+}
+
+.view_more_btn {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navbar-default {
+    z-index: 10;
+    border-radius: 0;
+    background-color: #1a71bc;
+    border: 0;
+    border-bottom: #1965a6 5px solid;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    padding-right: 0;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+
+    .navbar-brand {
+        margin-right: 10px;
+    }
+
+    #menubar .navbar-nav > li > a {
+
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .logo-postivo-brad {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    #menubar .navbar-nav > li > a {
+
+        font-size: 14px;
+        padding-top: 35px;
+        padding-bottom: 25px;
+
+    }
+
+    #menubar {
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .logo-postivo-brad {
+        position: relative;
+        top: -20px;
+
+        float: right;
+
+    }
+
+    .logo-postivo-brad img {
+        height: 50px;
+    }
+
+    .navbar-logo-positivo {
+        display: none;
+    }
+}
+
+.logo-postivo {
+    height: 70px;
+    margin: 3px 20px 0 0;
+}
+
+.navbar-tag {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+    margin: 15px 10px 0 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bad9f3;
+    font-size: 12px;
+    padding-top: 19px;
+    padding-bottom: 11px;
+
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background: #1965a6;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+
+    background: #1965a6;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    background-color: #1a71bc;
+
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+    background-color: #1a71bc;
+    color: #bad9f3;
+    border: solid #1965a6 1px;
+
+}
+
+.navbar-default .navbar-toggle:focus {
+
+    background-color: #1a71bc;
+}
+
+.navbar-default .navbar-toggle:hover {
+
+    background-color: #1a71bc;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #bad9f3;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+
+    background-color: #bad9f3;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar:focus {
+
+    background-color: #bad9f3;
+
+}
+
+.btn {
+    border-radius: 2px;
+
+}
+
+@media (min-width: 1201px) {
+    .container {
+        width: 1280px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .navbar-default li a {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 993px) {
+
+    .navbar-default li a {
+        font-size: 15px;
+        padding: 29px 10px 21px 10px;
+    }
+
+}
+
+/* end Bootstrap =============================================================================*/
+
+.header-tag {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    background: #1a71bc;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
+    border-bottom: #1965a6 5px solid;
+
+}
+
+.header-tag-no-bottom {
+    border-bottom: 0;
+
+}
+
+.margin-bot {
+
+    margin-bottom: 20px;
+}

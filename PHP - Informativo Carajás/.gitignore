@@ -1,0 +1,8 @@
+.idea/
+!public/.htaccess
+template-compile/*.php
+Vagrantfile
+.vagrant/
+config/db.ini
+public/sitemap.xml
+config/config.php
